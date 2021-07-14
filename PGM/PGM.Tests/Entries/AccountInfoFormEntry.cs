@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PGM.Tests.Entries
 {
-    internal struct FormEntry
+    internal struct AccountInfoFormEntry
     {
         public string Name { get; set; }
         public string Description { get; set; }

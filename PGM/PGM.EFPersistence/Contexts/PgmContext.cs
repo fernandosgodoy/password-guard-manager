@@ -13,6 +13,12 @@ namespace PGM.EFPersistence.Contexts
         : DbContext
     {
 
+        public PgmContext(DbContextOptions<PgmContext> options)
+            : base(options)
+        {
+            this.Database.EnsureCreated();
+        }
+
         #region DbSets
 
         public DbSet<AccountInfo> Accounts { get; set; }
