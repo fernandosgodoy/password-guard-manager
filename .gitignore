@@ -109,3 +109,7 @@ dist
 /PGM/PGM.Tests/bin/Debug/net5.0
 /PGM/PGM.Tests/obj
 /PGM/PGM.WebApi/bin/Debug/net5.0
+/PGM/PGM.EFPersistence/bin/Debug/net5.0
+/PGM/PGM.EFPersistence/obj
+/PGM/PGM.InfraHelpers/bin/Debug/net5.0
+/PGM/PGM.InfraHelpers/obj
