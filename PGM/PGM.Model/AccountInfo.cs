@@ -1,11 +1,12 @@
-﻿using System;
+﻿using PGM.Model.Base;
+using System;
 
 namespace PGM.Model
 {
     public class AccountInfo
+        : EntityBase
     {
 
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public bool ExpiresPass { get; set; }
