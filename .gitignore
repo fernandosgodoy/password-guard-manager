@@ -102,3 +102,5 @@ dist
 
 # TernJS port file
 .tern-port
+/PGM/PGM.WebApi/obj
+/PGM/.vs/PGM/v16
