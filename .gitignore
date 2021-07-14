@@ -104,3 +104,8 @@ dist
 .tern-port
 /PGM/PGM.WebApi/obj
 /PGM/.vs/PGM/v16
+/PGM/PGM.Model/obj
+/PGM/PGM.Model/bin/Debug/net5.0
+/PGM/PGM.Tests/bin/Debug/net5.0
+/PGM/PGM.Tests/obj
+/PGM/PGM.WebApi/bin/Debug/net5.0
