@@ -9,4 +9,13 @@
     <ProjectReference Include="..\PGM.Model\PGM.Model.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
+  </ItemGroup>
+
 </Project>
