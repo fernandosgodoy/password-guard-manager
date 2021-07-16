@@ -1,9 +1,6 @@
 ﻿using PGM.Model.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace PGM.Model.Base
 {
@@ -16,6 +13,7 @@ namespace PGM.Model.Base
             this.CreatedAt = DateTime.Now;
         }
 
+        [Key]
         public int Id { get; set; }
 
         public DateTime CreatedAt { get; set; }

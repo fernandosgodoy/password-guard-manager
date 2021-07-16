@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PGM.EFPersistence\PGM.EFPersistence.csproj" />
     <ProjectReference Include="..\PGM.InfraHelpers\PGM.InfraHelpers.csproj" />
     <ProjectReference Include="..\PGM.Model\PGM.Model.csproj" />

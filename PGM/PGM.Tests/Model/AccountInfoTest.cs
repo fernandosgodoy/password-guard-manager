@@ -1,4 +1,5 @@
 using Moq.AutoMock;
+using PGM.InfraHelpers.ModelHelpers;
 using PGM.Model;
 using PGM.Tests.Entries;
 using Xunit;
@@ -15,21 +16,9 @@ namespace PGM.Tests.Model
         }
 
         [Fact]
-        public void GivenInfoData_WhenYouHaveTheFieldsFromForm_ThenTryToDumpTheAccountInfo()
+        public void GivenTheProjectEntities_WhenAfterYouWroteTheClass_ThenCheckTheRulesForTheModel()
         {
-            var formEntry = new AccountInfoFormEntry()
-            {
-                Name =  "mytest@hotmail.com",
-                Description = "Account Test from Hotmail",
-                Expires = false
-                //Retrieve the random password
-            };
-
-            //Insert the suggested password
-
-            //Mock the data.
-            this._autoMocker.CreateInstance<AccountInfo>();
-            
+            Assert.True(typeof(AccountInfo).CheckHasDefinedPrimaryKey(), "Entity doesn't implement the correct model rules.");
         }
 
     }
